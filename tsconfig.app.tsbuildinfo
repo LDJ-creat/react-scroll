@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/vite-env.d.ts","./src/hooks/index.ts","./src/hooks/usescrollsync.ts","./src/types/index.ts","./src/utils/debounce.ts","./src/utils/index.ts"],"version":"5.6.3"}
