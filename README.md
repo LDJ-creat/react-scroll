@@ -1,9 +1,10 @@
+> English | [简体中文](./README.zh-CN.md)
 
-# @dsmlll/react-scroll
+# 📦 @dsmlll/react-scroll
 
 A React library for synchronizing scroll position between a navigation component and different content sections. It provides a custom hook `useScrollSync` that handles scroll listening, updates the active navigation tab based on the visible section, and allows users to click on navigation tabs to smoothly scroll to the corresponding section.
 
-## Features
+## ✨ Features
 
 - Smooth scrolling to sections when navigation tabs are clicked.
 - Automatic highlighting of the active navigation tab based on the currently visible section during scrolling.
@@ -11,7 +12,7 @@ A React library for synchronizing scroll position between a navigation component
 - Customizable via options (e.g., debounce delay, offset).
 - Supports dynamic content and ref-based section targeting.
 
-## Installation
+## 🚀 Installation
 
 ```bash
 npm install @dsmlll/react-scroll
@@ -19,7 +20,7 @@ npm install @dsmlll/react-scroll
 yarn add @dsmlll/react-scroll
 ```
 
-## Usage
+## 💡 Usage
 
 Here's a basic example of how to use the `useScrollSync` hook:
 
@@ -82,7 +83,7 @@ const MyPageComponent = () => {
 export default MyPageComponent;
 ```
 
-## API
+## 📖 API
 
 ### `useScrollSync(props: UseScrollSyncProps): UseScrollSyncReturn`
 
@@ -104,10 +105,11 @@ export default MyPageComponent;
 - `activeTab`: `string` - The ID of the currently active section/tab.
 - `handleTabClick`: `(tabId: string) => void` - Function to call when a navigation tab is clicked. It will scroll to the corresponding section.
 
-## Contributing
+
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
