@@ -1,8 +1,7 @@
-// Debounce function to limit the rate at which a function can fire.
-// Using a more specific type for args instead of any[]
+// 防抖函数，用于限制函数的触发频率
 export const debounce = <TArgs extends unknown[], TReturn>(
   func: (...args: TArgs) => TReturn,
-  waitFor: number,
+  waitFor: number,// 防抖延迟时间（毫秒）
 ) => {
   let timeoutId: number | null = null;
 
